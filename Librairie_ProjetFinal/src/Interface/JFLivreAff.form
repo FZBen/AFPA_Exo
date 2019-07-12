@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,73,0,0,3,70"/>
+    <SyntheticProperty name="formPosition" type="java.awt.Point" value="-84,-19,0,5,115,114,0,14,106,97,118,97,46,97,119,116,46,80,111,105,110,116,-74,-60,-118,114,52,126,-56,38,2,0,2,73,0,1,120,73,0,1,121,120,112,0,0,0,0,0,0,0,0"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generatePosition" type="boolean" value="true"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jlCollection" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlEditeur" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlSerie" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlPrix" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlAuteur" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlSoustitre" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlTitre" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlFormat" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlNombresdepages" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlDatedesortie" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlExemplairesdisponibles" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jlSousthème" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlThème" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlActif" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="jtfSousthème" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jtfSerie" alignment="0" pref="201" max="32767" attributes="0"/>
+                  <Component id="jtfPrix" alignment="0" pref="201" max="32767" attributes="0"/>
+                  <Component id="jtfExemplairesdisponibles" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jtfFormat" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jtfEditeur" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jtfStatut" alignment="1" max="32767" attributes="0"/>
+                  <Component id="jtfCollection" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jtfDatedeSortie" alignment="0" pref="201" max="32767" attributes="0"/>
+                  <Component id="jtfAuteur" alignment="0" pref="201" max="32767" attributes="0"/>
+                  <Component id="jtfNombredepage" alignment="0" pref="201" max="32767" attributes="0"/>
+                  <Component id="jtfTitre" alignment="0" pref="201" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jtfThème" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" min="-2" pref="293" max="-2" attributes="0"/>
+                  <Component id="jlSynopsis" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="457" max="-2" attributes="0"/>
+              <Component id="jbFermer" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="298" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jtfStatut" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlActif" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlThème" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtfThème" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlSynopsis" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jtfSousthème" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlSousthème" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jtfTitre" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlTitre" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jlSoustitre" max="32767" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jtfSerie" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlSerie" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jtfAuteur" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlAuteur" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jtfEditeur" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlEditeur" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jlCollection" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jtfCollection" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jtfFormat" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlFormat" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jtfNombredepage" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlNombresdepages" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jtfDatedeSortie" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlDatedesortie" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jtfExemplairesdisponibles" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlExemplairesdisponibles" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jtfPrix" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlPrix" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="198" max="32767" attributes="0"/>
+                      <Component id="jbFermer" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane2" min="-2" pref="445" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jlActif">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Statut"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlTitre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Titre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfTitre">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfTitreActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlSoustitre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sous-titre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlAuteur">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Auteur"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfAuteur">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfAuteurActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlEditeur">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Editeur"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfEditeur">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfEditeurActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbFermer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fermer"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbFermerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfFormat">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfFormatActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfNombredepage">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfNombredepageActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfDatedeSortie">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfExemplairesdisponibles">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfPrix">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfPrixActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <Properties>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Curseur par d&#xe9;faut"/>
+        </Property>
+        <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jtaSynopsis">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="caretPosition" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="0" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jlCollection">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Collection"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlNombresdepages">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombres de page"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlDatedesortie">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date de Sortie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlExemplairesdisponibles">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Exemplaires disponibles"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlPrix">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Prix"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlSynopsis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Synopsis"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfStatut">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfStatutActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfSerie">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfSerieActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlSerie">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Serie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfSousth&#xe8;me">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfSousth&#xe8;meActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlTh&#xe8;me">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Th&#xe8;me"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfTh&#xe8;me">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfTh&#xe8;meActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlSousth&#xe8;me">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sous-th&#xe8;me"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfCollection">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtfCollectionActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlFormat">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Format"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="null"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="jtfSoustitre">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleParent" type="javax.accessibility.Accessible" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="jScrollPane1"/>
+            </Property>
+          </AccessibilityProperties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
